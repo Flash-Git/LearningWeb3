@@ -2,7 +2,7 @@ var Web3 = require('web3');
 web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 
 /*
-Returns an account address from your local Geth Node at the specified index
+* Returns an account address from your local Geth Node at the specified index
 */
 
 var accounts=[];//Array
